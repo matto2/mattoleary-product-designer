@@ -1,6 +1,6 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "Matt O'Leary | Product Designer",
+  "url": "https://mattoleary.netlify.app/",
   "language": "en",
   "description": "I am writing about my experiences as a naval navel-gazer.",
   "feed": {
@@ -14,8 +14,8 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Matt O’Leary",
+    "email": "mattosurf@gmail.com",
+    "url": "https://mattoleary.netlify.app/"
   }
 }

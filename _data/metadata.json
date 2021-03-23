@@ -1,21 +1,21 @@
 {
-  "title": "Matt O’Leary | Product Designer",
-  "url": "https://mattoleary-product-designer.netlify.app/",
+  "title": "Your Blog Name",
+  "url": "https://example.com/",
   "language": "en",
-  "description": "Product Designer obsessed with improving the customer experience with digital products",
+  "description": "I am writing about my experiences as a naval navel-gazer.",
   "feed": {
-    "subtitle": "",
+    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": ""
+    "id": "https://example.com/"
   },
   "jsonfeed": {
-    "path": "",
-    "url": ""
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Matt O’Leary",
-    "email": "mattosurf@gmail.com",
-    "url": "https://mattoleary-product-designer.netlify.app/"
+    "name": "Your Name Here",
+    "email": "youremailaddress@example.com",
+    "url": "https://example.com/about-me/"
   }
 }

@@ -338,7 +338,7 @@ a {
 }
 
 
-@font-face {
+/* @font-face {
   font-family: 'CircularStd-Medium';
   src: url('./assets/fonts/CircularStd-Medium.woff2') format('woff2'),
        url('./assets/fonts/CircularStd-Medium.woff') format('woff'),
@@ -348,7 +348,7 @@ a {
 h1 {
   font-family: 'CircularStd-Medium', sans-serif;
   font-weight: 600;
-}
+} */
 
 .view {
   margin-top: .5rem;

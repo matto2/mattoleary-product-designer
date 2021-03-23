@@ -3,7 +3,7 @@
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
   --darkgray: #333;
-  --navy: #17050F;
+  --navy: #444;
   --blue: #082840;
   --white: #fff;
 }
@@ -430,3 +430,34 @@ p {
  .card h4 {
    margin: 1rem 0 0 0;
  } 
+
+h1 {
+  font-family: 'Hind Vadodara', sans-serif;  
+  color: #444;
+  font-weight: 300;
+}
+
+.home {
+  font-family: sans-serif;  
+   color: #444;
+   font-weight: 700;
+ } 
+
+ h3 {
+   font-weight: 500;
+ }
+
+.nav li {
+  text-decoration: none;
+}
+
+ .nav-item a[href] {
+  color:dodgerblue;
+  text-decoration: none;
+}
+
+.nav-item-active a[href] {
+  font-weight: 700;
+  text-decoration: none;
+  color: #444;
+}

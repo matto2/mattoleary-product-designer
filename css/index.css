@@ -27,7 +27,7 @@ p:last-child {
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: 56em; /* 600px /16 */
 }
 p,
 .tmpl-post li {
@@ -41,12 +41,18 @@ a[href]:visited {
 }
 main {
   padding: 1rem;
+  max-width: 100ch;
+  width: 100%;
+  margin: 0 auto;
 }
 main :first-child {
   margin-top: 0;
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
+  max-width: 100ch;
+  width: 100%;
+  margin: 0 auto;
 }
 header:after {
   content: "";
@@ -134,7 +140,7 @@ code {
 .nav {
   padding: 0;
   list-style: none;
-  float: left;
+  float: right;
   margin-left: 1em;
 }
 .nav-item {
@@ -245,3 +251,182 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+
+
+
+
+
+.smol-css-grid {
+  --min: 25ch;
+  --gap: 2rem;
+
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+  margin-bottom: 2rem;
+}
+
+.smol-css-grid li {
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+
+.card {
+  // box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+  border: 2px solid rgb(241, 237, 237);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  padding-bottom: 1rem;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  // box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+  border: 2px solid dodgerblue
+}
+
+.card img {
+  border-radius: 3px 3px 0 0;
+}
+
+.card a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.brand {
+  text-decoration: none; /* no underline */
+  color: #333;
+  font-weight: 700;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.margins {margin:2rem 0 2rem 0}
+
+.nav__item--active a {
+  color: #333;
+}
+
+.nav__item--active {
+  font-weight: 700;
+}
+
+
+.nav__item--active a:hover {
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: 'CircularStd-Medium';
+  src: url('./assets/fonts/CircularStd-Medium.woff2') format('woff2'),
+       url('./assets/fonts/CircularStd-Medium.woff') format('woff'),
+       url('./assets/fonts/CircularStd-Medium.ttf')  format('truetype');
+}
+
+h1 {
+  font-family: 'CircularStd-Medium', sans-serif;
+  font-weight: 600;
+}
+
+.view {
+  margin-top: .5rem;
+  color: dodgerblue;
+}
+
+.view:hover {
+  text-decoration: underline;
+}
+
+.left {
+  float: left;
+}
+
+.profile {
+  float: left;
+  max-width: 12rem;
+}
+
+.arrows {
+  text-decoration: none;
+  margin-bottom: 22px;
+}
+
+.port {
+  max-width: 100%;
+  margin: 2rem 0 2rem 0;
+  box-shadow: 0 0 4px 4px #eee;  }
+
+  .blockyquote {
+    margin-top: 1rem;
+    display: block;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    font-style: italic;
+    background: #c2e0f3;
+}
+
+.blockyquote li {
+  list-style: square;
+}
+
+
+
+.bottom-nav {
+  margin: 3rem 0 3rem 0;
+}
+
+.bottom-nav a {
+text-decoration: none;  }
+
+.bottom-nav a:hover {
+text-decoration: underline;  }
+
+.bullet ul {
+
+  list-style: square;
+
+}
+
+
+.port {
+  max-width: 100%;
+  margin: 2rem 0 2rem 0;
+  box-shadow: 0 0 4px 4px #eee;
+}
+
+.port2 {
+  max-width: 100%;
+  margin: 2rem 0 2rem 0;
+}
+
+p {
+  padding-bottom: .25rem;
+  }
+
+ .card h4 {
+   margin: 1rem 0 0 0;
+ } 

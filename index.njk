@@ -4,11 +4,107 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
+<h1>👋🏽 Welcome</h1>
+
+<p class="margins">
+    <strong>Hi, I’m Matt, thanks for stopping by!</strong> I'm currently working on API management and content collaboration products at Axway. Before that I lead UX/UI Design at Accellion, and at FastPencil. I strive for simplicity, clarity, and the shortest path-to-value possible. Here are a few projects I've worked on:
+    </p>
+
+<ul class="smol-css-grid">
+<li>
+  <a href="/landing/">
+  <div class="card">
+  <img src="/img/welcome1.jpg" alt="LandingPage-example" style="width:100%">
+  <div class="container">
+    <h4><b>Landing Experience Refresh</b></h4>
+    <p>Amplify Platform</p>
+    <a href="/landing">
+    </a>
+  </div>
+  </a>
+</div>
+</li>
+
+<li>
+  <a href="/openbanking">
+  <div class="card">
+  <img src="/img/openbanking.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Open Banking demo</b></h4>
+    <p>API Portal site</p>
+    <a href="/openbanking">
+    </a>
+  </div>
+  </a>
+</div>
+</li>
+
+  <li>
+  <a href="/file-sharing/">
+  <div class="card">
+  <img src="/img/files2.jpg" alt="kiteworks" style="width:100%">
+  <div class="container">
+    <h4><b>File Sharing App</b></h4>
+    <p>Kiteworks web</p>
+    <a href="/file-sharing">
+    </a>
+  </div>
+  </a>
+</div>
+</li>
+
+
+
+
+
+<li>
+  <a href="/overlays">
+  <div class="card">
+  <img src="/img/folder-icons-cropped.jpg" alt="syncplicity" style="width:100%">
+  <div class="container">
+    <h4><b>Usability Improvements</b></h4>
+    <p>Syncplicity</p>
+    <a href="/overlays">
+    </a>
+  </div>
+  </a>
+</div>
+</li>
+
+<li>
+  <a href="/mobile">
+  <div class="card">
+  <img src="/img/mobile-design.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Mobile Design</b></h4>
+    <p>Syncplicity</p>
+    <a href="/mobile">
+    </a>
+  </div>
+  </a>
+</div>
+</li>
+
+<li>
+  <a href="/fastpencil">
+  <div class="card">
+  <img src="/img/fp-home2.jpg" alt="FastPencil image" style="width:100%">
+  <div class="container">
+    <h4><b>Self Publishing Platform</b></h4>
+    <p>FastPencil</p>
+    <a href="/fastpencil/">
+    </a>
+  </div>
+  </a>
+</div>
+</li>
+
+</ul>
+<!-- {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p> -->

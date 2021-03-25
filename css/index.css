@@ -505,9 +505,10 @@ img {
 }
 
 h3 {
-  font-family: 'Hind Vadodara', sans-serif;  
+  /* font-family: 'Hind Vadodara', sans-serif;   */
   color: #444;
   font-weight: 700;
+  margin-bottom: .1rem;
 }
 
 p.larger {

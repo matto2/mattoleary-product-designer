@@ -27,7 +27,7 @@ HOME</a> /
 <img class="port2" src="/img/mobile-design-big.jpg">
 <p>A large number of Syncplicity customers access their enterprise content via the native mobile app. The Syncplicity mobile apps are in transition to matching the branding of Axway and the other Syncplicity clients like desktop and web. This design is an in-progress concept showing new mobile branding (Android phone in this case). There are additional changes intended to increase usability (moving primary actions to the bottom for example) and decrease training while not making such dramatic changes as to throw off exisiting users.
 
-Here's the <a href="https://xd.adobe.com/view/433cb756-45a8-43aa-9032-e241da1d9bd5-166f/?fullscreen&hints=off">clickable prototype</a></p>
+<!-- Here's the <a href="https://xd.adobe.com/view/433cb756-45a8-43aa-9032-e241da1d9bd5-166f/?fullscreen&hints=off">clickable prototype</a></p> -->
 
 </div>
 

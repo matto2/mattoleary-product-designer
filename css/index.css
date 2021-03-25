@@ -557,3 +557,33 @@ text-decoration: underline;  }
   text-decoration: none;
   display: inline-flex;
 }
+
+.profile {
+  border: none;
+}
+
+.connect {
+display: grid;
+grid-template-columns: 2rem 2rem 2rem;
+color: dodgerblue;
+}
+
+.connect img {
+  border: none;
+  max-height: 4rem;
+  color: dodgerblue;
+  margin-top: .5rem;
+}
+
+.connect a[href] {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+h3 {
+  margin-bottom: .1rem;
+}
+
+/* p {
+  margin-top: .2rem;
+} */

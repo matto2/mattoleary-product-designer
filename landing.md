@@ -1,8 +1,11 @@
 ---
 layout: layouts/home.njk
 ---
+
 <a href="/" class="arrows">
 HOME</a> /
+
+<!-- <div class="bottom-arrows"><a href="/"><img class="bottom" src="/img/arrow-left.svg">Home</a></div> -->
 
 # Amplify Landing Pages
 

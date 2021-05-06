@@ -564,6 +564,14 @@ text-decoration: underline;  }
   margin-right: 1rem;
 }
 
+.profile2 {
+  border: none;
+  max-width: 16rem;
+  margin-right: 1rem;
+  padding-top: .4rem;
+  float: left;
+}
+
 .connect {
 display: grid;
 grid-template-columns: 2rem 2rem 2rem;

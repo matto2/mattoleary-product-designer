@@ -6,7 +6,7 @@
   --navy: #444;
   --blue: #082840;
   --white: #fff;
-  --link: dodgerblue;
+  --link: #635bff;
 }
 
 /* Global stylesheet */
@@ -289,7 +289,7 @@ ul {
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   // box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
-  border: 2px solid dodgerblue
+  border: 2px solid #635bff
 }
 
 .card img {
@@ -311,7 +311,7 @@ ul {
 }
 
 a {
-    color: dodgerblue;
+    color: #635bff;
 }
 
 .brand {
@@ -358,7 +358,7 @@ h1 {
 
 .view {
   margin-top: .5rem;
-  color: dodgerblue;
+  color: #635bff;
 }
 
 .view:hover {
@@ -380,7 +380,7 @@ h1 {
 }
 
 .arrows a[href] {
-  color: dodgerblue;
+  color: #635bff;
 }
 
 .port {
@@ -464,7 +464,7 @@ h1 {
 }
 
  .nav-item a[href] {
-  color:dodgerblue;
+  color:#635bff;
   text-decoration: none;
 }
 
@@ -576,19 +576,19 @@ text-decoration: underline;  }
 .connect {
 display: grid;
 grid-template-columns: 2rem 2rem 2rem;
-color: dodgerblue;
+color: #635bff;
 }
 
 .connect img {
   border: none;
   max-height: 4rem;
-  color: dodgerblue;
+  color: #635bff;
   margin-top: .5rem;
 }
 
 .connect a[href] {
   text-decoration: none;
-  color: dodgerblue;
+  color: #635bff;
 }
 
 h3 {

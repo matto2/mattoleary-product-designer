@@ -24,8 +24,8 @@ Here's my <a href="/img/OLeary_resume_2021.pdf">resume</a>
 <br>
 <strong>Let's connect</strong></br>
 <div class="connect">
-<a href="https://www.linkedin.com/in/matt-oleary/"><img src="/img/linkedin.svg">
-<a href="mailto:mattosurf@gmail.com"><img src="/img/mail.svg"></a>
+<a href="https://www.linkedin.com/in/matt-oleary/"><img src="/img/linkedin.svg" alt="linkedin logo">
+<a href="mailto:mattosurf@gmail.com"><img src="/img/mail.svg" alt="mail icon"></a>
 </div>
 
 

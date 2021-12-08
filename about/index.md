@@ -20,6 +20,7 @@ I have a varied background in design–from founding a surf magazine to running 
     </p>
 Here's my <a href="/img/OLeary_resume_2021.pdf">resume</a>
 </br>
+<p>My old archived site is <a href="https://mattoleary-archived.netlify.app/">here</a></p>
 </br>
 <br>
 <strong>Let's connect</strong></br>

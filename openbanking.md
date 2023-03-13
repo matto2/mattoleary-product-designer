@@ -1,5 +1,9 @@
 ---
 layout: layouts/home.njk
+tags: 
+  - discovery
+  - ux design
+  - interaction design
 ---
 <!-- <a href="/" class="arrows">
 HOME</a> / -->
@@ -9,7 +13,7 @@ HOME</a> / -->
 # Open Banking demo site
 
 
-<div class="bubbles">
+<!-- <div class="bubbles">
 <span class="badgeli">
                   Research & Discovery
                 </span> 
@@ -20,7 +24,13 @@ HOME</a> / -->
                    <span class="badgeli">
                   Interaction design
                 </span> 
-</div>
+</div> -->
+
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul>
 
 <img src="/img/openbanking.jpg" alt="open banking">
 <p>The Open Banking demo site was kind of like a side project within the greater Axway org. It was created by a small, collaborative, and cross-functional team led by Eyal Sivan (Mr Open Banking) and I was tapped to be the designer. The site features real APIs but with a made-up, representative bank.</p>

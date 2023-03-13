@@ -1,5 +1,9 @@
 ---
 layout: layouts/home.njk
+tags:
+  - discovery
+  - usability testing
+  - interaction design
 ---
 <!-- <a href="/" class="arrows">
 HOME</a> / -->
@@ -9,7 +13,7 @@ HOME</a> / -->
 # Syncplicity Improvements
 
 
-<div class="bubbles">
+<!-- <div class="bubbles">
 <span class="badgeli">
                   Research & Discovery
                 </span> 
@@ -24,7 +28,15 @@ HOME</a> / -->
                 <span class="badgeli">
                   Interaction design
                 </span> 
-</div>
+</div> -->
+
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+
+
 <p>The latest release of Syncplicity desktop (Dec 2020) has several improvements identified and designed by me and developed in collaboration with product and engineering. The features are related only to usability and understanding rather than the typical new technical features.</p>
 <h4>Add visual indication to show additional states of folders</h4>
 <p>Two Syncplicity features that are very useful to end-users are the ability to Sync folders on your computer with live copies in the cloud, and also the ability to easily share folders with business colleagues and partners.</p>

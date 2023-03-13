@@ -32,5 +32,8 @@
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^7.1.0",
     "node-fetch": "^2.6.1"
+  },
+  "dependencies": {
+    "@sindresorhus/slugify": "^2.2.0"
   }
 }

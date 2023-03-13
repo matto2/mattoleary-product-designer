@@ -1,5 +1,9 @@
 ---
 layout: layouts/home.njk
+tags: 
+  - discovery
+  - ux design
+  - interaction design
 ---
 <!-- <a href="/" class="arrows">
 HOME</a> -->
@@ -8,8 +12,13 @@ HOME</a> -->
 
 # File Sharing App
 
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul>
 
-<div class="bubbles">
+<!-- <div class="bubbles">
 <span class="badgeli">
                   Research & Discovery
                 </span> 
@@ -24,16 +33,16 @@ HOME</a> -->
                 <span class="badgeli">
                   Interaction design
                 </span> 
-</div>
+</div> -->
 
-<p><img class="port" src="/img/files2.jpg" alt="accellion file sharing app"></p>
+<p><img class="port" src="/img/files2.jpg" alt="Kiteworks file sharing app"></p>
 <h4>Background</h4>
-<p>Accellion was founded as a secure file transfer app and gained a loyal following based its feature set and performance. Around 2014, the company launched a new product called kiteworks that focused more on folder sharing than the original product with the thought that customers of the legacy product would migrate and adapt to new ways of collaboration. Although file transfer was still part of the new product, customers complained about usability and many stayed with the aging original product rather than switching over.  </p>
+<p>Kiteworks was founded as a secure file transfer app and gained a loyal following based its feature set and performance. Around 2014, the company launched a new product called kiteworks that focused more on folder sharing than the original product with the thought that customers of the legacy product would migrate and adapt to new ways of collaboration. Although file transfer was still part of the new product, customers complained about usability and many stayed with the aging original product rather than switching over.  </p>
 <h4>Hypothesis</h4>
 <p>The kiteworks app did not initially meet the needs of customers migrating from the original file sharing application. There were several usability issues related to file sharing. A redesign of the feature is required to clarify what users can do and reduce friction throughout the task flow.</p>
 <h4>Research</h4>
 <p>As part of the discovery process and to achieve a deep understanding of customer needs and flows I helped organize and ran a week-long usability study project with a key city government customer. </p>
-<p><img class="port" src="/img/usertest1.png" alt="accellion research example"></p>
+<p><img class="port" src="/img/usertest1.png" alt="Kiteworks research example"></p>
 <p>Each day I met with employees from various departments within the city: planning, police, fire, business development, IT and more. The individuals I met with had varying levels of experience using the product, from zero experience to power users. The goal of the project was to understand the behaviors and needs of a representative customer to improve the product for all customers and inform product design decisions going forward. The sessions took place in the users own environment and context to learn how they are using the product and where they are having issues. Sessions started with a casual interview followed by observation of the users going through a series of common tasks. The project revealed a wealth of issues that would not have been discovered without this deep level of testing.  </p>
 <h4>Key Takeaways</h4>
 <ul>

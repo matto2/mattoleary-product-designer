@@ -1,5 +1,10 @@
 ---
 layout: layouts/home.njk
+tags:
+  - discovery
+  - usability testing
+  - ux design
+  - interaction design 
 ---
 
 <!-- <a href="/" class="arrows">
@@ -10,7 +15,7 @@ HOME</a> / -->
 # Amplify Landing Pages
 
 
-<div class="bubbles">
+<!-- <div class="bubbles">
 <span class="badgeli">
                   Research & Discovery
                 </span> 
@@ -24,7 +29,13 @@ HOME</a> / -->
                    <span class="badgeli">
                   Interaction design
                 </span> 
-</div>
+</div> -->
+
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul>
 
 
 <!-- **New look** -->

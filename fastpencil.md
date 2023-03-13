@@ -1,5 +1,10 @@
 ---
 layout: layouts/home.njk
+tags:
+  - discovery
+  - usability testing
+  - ux design
+  - interaction design 
 ---
 <!-- <a href="/" class="arrows">
 HOME</a> / -->
@@ -8,9 +13,13 @@ HOME</a> / -->
 
 # FastPencil self-publishing platform
 
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag | slugify }}">{{ tag | slugify }}</a></li>
+{% endfor %}
+</ul>
 
-
-
+<!-- 
 <div class="bubbles">
 <span class="badgeli">
                   Research & Discovery
@@ -25,7 +34,7 @@ HOME</a> / -->
                 </span> 
                 <span class="badgeli">
                   Interaction design
-                </span> 
+                </span>  -->
 
 ![fastpencil landing page](/img/fp-home2.jpg)
 

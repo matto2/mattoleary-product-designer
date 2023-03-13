@@ -605,3 +605,26 @@ h3 {
 .visually-hidden {
   display: none;
 }
+
+ul.horizontal-list {
+  list-style: none;
+}
+
+ul.horizontal-list li {
+  display: inline-block;
+  background: rgb(200, 225, 250);
+  border-radius: 8rem;
+  text-align: center;
+  color: #444;
+  font-size: .8rem;
+  text-transform: uppercase;
+  align-content: center;
+  padding: .3rem 1rem;
+  margin: 1rem .25rem 1rem 0;
+  white-space: nowrap;
+}
+
+ul.horizontal-list li a:link {
+  text-decoration: none;
+}
+

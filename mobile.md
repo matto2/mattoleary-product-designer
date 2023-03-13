@@ -1,8 +1,10 @@
 ---
 layout: layouts/home.njk
 ---
-<a href="/" class="arrows">
-HOME</a> /
+<!-- <a href="/" class="arrows">
+HOME</a> / -->
+
+<div class="bottom-arrows"><a href="/">Home</a> | <a href="/fastpencil">Next<img class="bottom" src="/img/arrow-right.svg"></a></div>
 
 # Syncplicity Mobile
 

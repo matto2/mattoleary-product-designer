@@ -1,8 +1,10 @@
 ---
 layout: layouts/home.njk
 ---
-<a href="/" class="arrows">
-HOME</a> /
+<!-- <a href="/" class="arrows">
+HOME</a> / -->
+
+<div class="bottom-arrows"><a href="/">Home</a></div>
 
 # FastPencil self-publishing platform
 

@@ -15,7 +15,7 @@ HOME</a> / -->
 
 <ul class="horizontal-list">
 {% for tag in tags %}
-  <li><a href="/tags/{{ tag | slugify }}">{{ tag | slugify }}</a></li>
+  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
 {% endfor %}
 </ul>
 

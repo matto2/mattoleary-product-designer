@@ -11,7 +11,7 @@ HOME</a> / -->
 
 <div class="bottom-arrows"><a href="/">Home</a></div>
 
-# About me #
+# About Me
 
 <img class="profile2" src="/img/family-pic.jpg">
 

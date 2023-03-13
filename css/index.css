@@ -480,7 +480,8 @@ h1 {
 
 img {
   border: solid 1px #eee;
-  max-width: -webkit-fill-available
+  max-width: -webkit-fill-available;
+  height: auto !important;
 }
 
 .badges {

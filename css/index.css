@@ -29,6 +29,7 @@ p,
 .tmpl-post li,
 img {
   max-width: 94ch; /* 600px /16 */
+  height: auto !important;
 }
 p,
 .tmpl-post li {

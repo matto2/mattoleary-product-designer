@@ -13,28 +13,19 @@ HOME</a> / -->
 
 # FastPencil self-publishing platform
 
-<ul class="horizontal-list">
+<!-- <ul class="horizontal-list">
 {% for tag in tags %}
   <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
 {% endfor %}
+</ul> -->
+
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li>{{ tag }}</li>
+{% endfor %}
 </ul>
 
-<!-- 
-<div class="bubbles">
-<span class="badgeli">
-                  Research & Discovery
-                </span> 
-                   <span class="badgeli">
-                  UX Design
-                </span> 
-                </span> 
-                <span class="badgeli">
-                  Usability studies
-                </span> 
-                </span> 
-                <span class="badgeli">
-                  Interaction design
-                </span>  -->
+
 
 ![fastpencil landing page](/img/fp-home2.jpg)
 

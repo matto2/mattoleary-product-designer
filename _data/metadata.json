@@ -1,22 +1,22 @@
 {
   "title": "Matt O'Leary",
   "title2": "Product Designer",
-  "url": "https://mattoleary.netlify.app/",
+  "url": "https://mattoleary.design/",
   "language": "en",
   "description": "Matt O'Leary, Product Designer.",
   "feed": {
     "subtitle": "Matt O'Leary, Product Designer",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://mattoleary.design/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://mattoleary.design/feed/feed.json"
   },
   "author": {
     "name": "Matt O’Leary",
     "email": "mattosurf@gmail.com",
-    "url": "https://mattoleary.netlify.app/"
+    "url": "https://mattoleary.design/"
   }
 }

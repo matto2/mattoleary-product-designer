@@ -15,32 +15,22 @@ HOME</a> / -->
 # Amplify Landing Pages
 
 
-<!-- <div class="bubbles">
-<span class="badgeli">
-                  Research & Discovery
-                </span> 
-                <span class="badgeli">
-                  Usability studies
-                </span> 
-                   <span class="badgeli">
-                  UX Design
-                </span> 
-                                </span> 
-                   <span class="badgeli">
-                  Interaction design
-                </span> 
-</div> -->
+<!-- <ul class="horizontal-list">
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul> -->
 
 <ul class="horizontal-list">
 {% for tag in tags %}
-  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+  <li>{{ tag }}</li>
 {% endfor %}
 </ul>
 
 
 <!-- **New look** -->
 
-The first-time experience, especially on a SAAS app, is of critical importance and can be a make or break moment for potential customers. With this in mind I updated the visuals and switched the main flow to show things that a user can do as soon as they land. Default capabilities/apps are shown as tiles on the right, and to this I added tangible quick actions (aka jobs-that-can-be-done) on the left side in order to connect the applications with actions that bring immediate, tangible value to their org.
+The first-time experience, especially on SaaS apps, it is of critical importance and can make or break the conversion of potential customers. With this in mind I updated the visuals and switched the main flow of the application to show things that a user can do as soon as they land. Default capabilities/apps are shown as tiles on the right, and to this I added tangible quick actions (aka jobs-that-can-be-done) on the left side in order to connect the applications with actions that bring immediate, tangible value to their org.
 
 ![updated landing pages](/img/welcome1.png)
 

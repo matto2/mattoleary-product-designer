@@ -30,9 +30,15 @@ HOME</a> / -->
                 </span> 
 </div> -->
 
-<ul class="horizontal-list">
+<!-- <ul class="horizontal-list">
 {% for tag in tags %}
   <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul> -->
+
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li>{{ tag }}</li>
 {% endfor %}
 </ul>
 
@@ -52,7 +58,7 @@ HOME</a> / -->
 <h4>In-app product help/Content Design</h4>
 <p>In addition to creating more understanding of states of folders I also created in-app content explaining what these different states mean.
 When end users elect to use Syncplicity to free up space on their computers, they are presented with a popup explaining what will happen when they select the option. For those that want to learn more there is a clear text link which previously opened a long article on the web. Now it opens to a clear overlay guide without having to leave the familiar windows explorer environment.</p>
-<p><img src="/img/free-up-space.png" alt="large icons">
-<img src="/img/what-is-SyncDrive.png" alt="list view"></p>
+<p><img src="/img/free-up-space.jpg" alt="free up space">
+<img src="/img/what-is-SyncDrive.png" alt="what is SyncDrive"></p>
 
 <div class="bottom-arrows"><a href="/">Home</a> | <a href="/mobile">Next<img class="bottom" src="/img/arrow-right.svg"></a></div>

@@ -13,28 +13,17 @@ HOME</a> / -->
 # Syncplicity Mobile
 
 
-<!-- <div class="bubbles">
-<span class="badgeli">
-                  Research & Discovery
-                </span> 
-                   <span class="badgeli">
-                  UX Design
-                </span> 
-                </span> 
-                <span class="badgeli">
-                  Usability studies
-                </span> 
-                </span> 
-                <span class="badgeli">
-                  Interaction design
-                </span>  -->
-
-<ul class="horizontal-list">
+<!-- <ul class="horizontal-list">
 {% for tag in tags %}
   <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
 {% endfor %}
-</ul>
+</ul> -->
 
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li>{{ tag }}</li>
+{% endfor %}
+</ul>
 
 <h4>Role: Overall flow, UI design, Research</h4>
 <img class="port2" src="/img/mobile-design-big.jpg">

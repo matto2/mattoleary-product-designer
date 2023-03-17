@@ -12,28 +12,17 @@ HOME</a> -->
 
 # File Sharing App
 
-<ul class="horizontal-list">
+<!-- <ul class="horizontal-list">
 {% for tag in tags %}
   <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
 {% endfor %}
-</ul>
+</ul> -->
 
-<!-- <div class="bubbles">
-<span class="badgeli">
-                  Research & Discovery
-                </span> 
-                   <span class="badgeli">
-                  UX Design
-                </span> 
-                </span> 
-                <span class="badgeli">
-                  Usability studies
-                </span> 
-                </span> 
-                <span class="badgeli">
-                  Interaction design
-                </span> 
-</div> -->
+<ul class="horizontal-list">
+{% for tag in tags %}
+  <li>{{ tag }}</li>
+{% endfor %}
+</ul>
 
 <p><img class="port" src="/img/files2.jpg" alt="Kiteworks file sharing app"></p>
 <h4>Background</h4>

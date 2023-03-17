@@ -13,22 +13,15 @@ HOME</a> / -->
 # Open Banking demo site
 
 
-<!-- <div class="bubbles">
-<span class="badgeli">
-                  Research & Discovery
-                </span> 
-                   <span class="badgeli">
-                  UX Design
-                </span> 
-                                </span> 
-                   <span class="badgeli">
-                  Interaction design
-                </span> 
-</div> -->
+<!-- <ul class="horizontal-list">
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul> -->
 
 <ul class="horizontal-list">
 {% for tag in tags %}
-  <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+  <li>{{ tag }}</li>
 {% endfor %}
 </ul>
 

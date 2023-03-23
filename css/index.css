@@ -628,3 +628,12 @@ ul.horizontal-list li a:link {
   text-decoration: none;
 }
 
+ul {
+  padding-inline-start: 2em;
+  margin-top: -0.5em;
+  margin-bottom: 2em;
+}
+
+li {
+  line-height: 1.5em;
+}

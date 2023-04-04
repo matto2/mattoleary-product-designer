@@ -637,3 +637,18 @@ ul {
 li {
   line-height: 1.5em;
 }
+
+.nav {
+  padding: 0;
+  list-style: none;
+  float: right;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ul.horizontal-list {
+  list-style: none;
+  padding-inline-start: 0;
+  padding-left: -2em;
+}

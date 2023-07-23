@@ -23,7 +23,7 @@ I have a varied background in design–from founding a surf magazine to running 
     </p>
 Here's my <a href="/img/Matthew_OLeary_Product_Designer.pdf">resume</a>
 </br>
-<p>My old archived site is <a href="https://mattoleary-archived.netlify.app/">here</a></p>
+<p>My archived (Print + Marketing Design) site is <a href="https://mattoleary-archived.netlify.app/">here</a></p>
 </br>
 <br>
 <strong>Let's connect</strong></br>

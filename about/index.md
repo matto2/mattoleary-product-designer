@@ -21,7 +21,7 @@ HOME</a> / -->
 <p>
 I have a varied background in design–from founding a surf magazine to running production at creative agencies. I created <a href="https://keeptheapostrophe.com" target="_blank">keeptheapostrophe.com  <i class="fas fa-external-link-alt"></i></a> with my father. I occasionally write about UX and other subjects on <a href="https://medium.com/@mattosurf" target="_blank">Medium  <i class="fas fa-external-link-alt"></i></a>. I've also made a few <a href="https://olearystudios.com" target="_blank">paintings  <i class="fas fa-external-link-alt"></i></a> (links to my previous site). I'm inspired by the California coast and can often be found playing in the waves or with my family on the beach. Happy to chat anytime about product design, art, surfing, or the best restaurants in Santa Cruz!
     </p>
-Here's my <a href="/img/Matthew_OLeary_Product_Designer.pdf">resume</a>
+Here's my <a href="/img/MatthewOLeary-SeniorProductDesigner.pdf">resume</a>
 </br>
 <p>My archived (Print + Marketing Design) site is <a href="https://mattoleary-archived.netlify.app/">here</a></p>
 </br>

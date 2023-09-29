@@ -13,7 +13,7 @@ HOME</a> / -->
 
 # About Me
 
-<img class="profile2" src="/img/matto-me-in-nyc.jpg">
+<img class="profile2" src="/img/about-page-IMG_0728.jpg">
 
 <p>I'm a product design generalist focused on great experiences and outcomes for both customers and the business. My process involves understanding customer and business goals via discussions and sketching out ideas with product owners. I then prototype, test and iterate based on feedback. I love discussing and testing with customers. Things I check for: is this <mark>useful, usable, understandable, inclusive, accessible</mark>? I collaborate closely with Engineering and QA to build and test, then validate production versions with customers. Design isn't done until customers are getting their jobs done.
 </p>

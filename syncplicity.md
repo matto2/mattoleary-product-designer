@@ -5,6 +5,7 @@ tags:
   - usability testing
   - interaction design
 ---
+
 <!-- <a href="/" class="arrows">
 HOME</a> / -->
 
@@ -12,22 +13,21 @@ HOME</a> / -->
 
 # Syncplicity Improvements
 
-
 <!-- <div class="bubbles">
 <span class="badgeli">
                   Research & Discovery
-                </span> 
+                </span>
                    <span class="badgeli">
                   UX Design
-                </span> 
-                </span> 
+                </span>
+                </span>
                 <span class="badgeli">
                   Usability studies
-                </span> 
-                </span> 
+                </span>
+                </span>
                 <span class="badgeli">
                   Interaction design
-                </span> 
+                </span>
 </div> -->
 
 <!-- <ul class="horizontal-list">
@@ -42,8 +42,7 @@ HOME</a> / -->
 {% endfor %}
 </ul>
 
-
-<p>The latest release of Syncplicity desktop (Dec 2020) has several improvements identified and designed by me and developed in collaboration with product and engineering. The features are related only to usability and understanding rather than the typical new technical features.</p>
+<p>The latest release of Syncplicity desktop has several improvements identified and designed by me and developed in collaboration with product and engineering. The features are related only to usability and understanding rather than the typical new technical features.</p>
 <h4>Add visual indication to show additional states of folders</h4>
 <p>Two Syncplicity features that are very useful to end-users are the ability to Sync folders on your computer with live copies in the cloud, and also the ability to easily share folders with business colleagues and partners.</p>
 <h4>Before:</h4>
